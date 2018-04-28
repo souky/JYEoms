@@ -1,0 +1,399 @@
+[v-cloak] {
+    display: none;
+}
+body,html
+{
+	min-width: 1200px;
+	color: #333333;
+	
+}
+.login
+{
+	width: 100%;
+	height: 100%;
+	background: url('../../static/img/login-bg.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+/*Login.vue*/
+.login .login-hull .main .el-form .el-form-item__label
+{
+	color: #FFFFFF;
+	display: inline;
+	line-height: 1.4em;
+}
+.login .login-hull .main .el-form .el-input__inner
+{
+	padding: 0 10px;
+}
+/*header.vue dialog*/
+.app-header .el-dialog
+{
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.app-header .el-dialog .el-dialog__header
+{
+	padding: 0;
+}
+.app-header .el-dialog .el-dialog__body
+{
+	padding: 0 20px 0 0;
+}
+.app-header .el-dialog .el-dialog__headerbtn
+{
+	top: 14px;
+}
+/*列表公共样式*/
+.lists-hull-common
+{
+	padding: 15px 25px 30px 20px;
+}
+.lists-hull-common .common-table
+{
+	border: 1px solid #ddd;
+	width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.lists-hull-common .common-table .table-caption
+{
+	background: #E4E7ED;
+}
+.lists-hull-common .common-table tr
+{
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+}
+.lists-hull-common .common-table tr th,.lists-hull-common .common-table tr td
+{
+	border: 1px solid #ddd;
+	padding: 8px;
+	line-height: 1.4em;
+	vertical-align: middle;
+}
+.lists-hull-common .common-table tr td.summary
+{
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.lists-hull-common .common-table tr td.operation
+{
+	vertical-align: middle;
+}
+.lists-hull-common .common-table tr td.operation i
+{
+	font-size: 18px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.bbatch-common .block
+{
+	text-align: right;
+	margin-left: 152px;
+}
+.bbatch-common .block .el-pager li
+{
+	color: #428bca;
+    display: inline-block;
+    padding: 0 8px;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+    border-radius: 4px;
+    vertical-align: middle;
+    border-radius: 4px;
+    font-weight: normal;
+    min-width: 30px;
+}
+.bbatch-common .block .el-pager li.active
+{
+
+    color: #fff;
+    background-color: #409EFF;
+    border: 1px solid #409EFF;
+    border-radius: 4px;
+}
+/*查看页面*/
+.common-look p
+{
+	font-size: 14px;
+}
+.common-look .look-return
+{
+	font-size: 14px;
+}
+.common-look .look-return .icon-class
+{
+	float: left;
+	margin-right: 5px;
+}
+.common-look .look-return:hover
+{
+	color: #409EFF;
+}
+.common-look .item-row
+{
+	margin-top: 20px;
+	text-align: center;
+}
+.common-look .item-row .el-col
+{
+	line-height: 35px;
+}
+.common-look .item-row .el-col .title
+{
+    width: 120px;
+    min-height: 35px;
+    text-align: right;
+    float: left
+}
+.common-look .item-row .el-col .input
+{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    width: 60% !important;
+    text-align: left;
+}
+.common-look .item-row .el-col .textarea
+{
+	width: 80% !important;
+}
+.common-look .item-row .el-col .reply
+{
+	width: 60% !important;
+	height: 100px;
+	float: left;
+	padding: 6px 12px;
+	border: 1px solid #d4d4d4 !important;
+    border-radius: 3px !important;
+    outline: none;
+    font-size: 14px;
+}
+.common-look .item-row .el-col .reply-button
+{
+    margin: 40px 0 0 20px;
+    padding: 0 40px;
+    height: 34px;
+    float: left
+}
+.common-look .item-row .upload-hull
+{
+	width: 600px;
+    border: 1px #eee solid;
+    padding: 10px;
+    float: left;
+    text-align: left;
+}
+.common-look .item-row .upload-hull .el-button
+{
+	margin: 0;
+	background-color: transparent;
+}
+
+.common-look .item-row .reply-table
+{
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: center;
+    font-size: 14px;
+}
+.common-look .item-row .reply-table tr th
+{
+	background: #E4E7ED;
+	border: 1px solid #ddd;
+	border-bottom: 2px solid #DDD;
+}
+.common-look .item-row .reply-table tr td
+{
+	padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+.common-look .item-row .reply-table tr td a
+{
+	color: #337ab7;
+    text-decoration: none;
+}
+.common-look .item-row .reply-table tr td a:hover
+{
+	color: #23527c;
+    text-decoration: underline;
+}
+.common-look .item-row .red
+{
+	color: red;
+	margin-right: 2px;
+}
+/*列表页*/
+.common-look .item-row .smalltitle
+{
+	width: 45px;
+	float: left;
+}
+.el-select
+{
+	width: 100%;
+}
+.common-editor .editor-button
+{
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 30px;
+    border-top: 1px solid #dcdfe6;
+}
+.common-editor .editor-button .el-button
+{
+	width: 120px;
+	font-size: 16px;
+}
+/*筛选框*/
+.screening-common
+{
+	margin: 20px 0 0 20px;
+}
+.screening-common .el-button
+{
+	float: right;
+	margin-right: 25px;
+}
+.screening-common .cascader
+{
+	margin: 0 5px;
+}
+.screening-common .cascader .el-cascader
+{
+	width: 100%;
+}
+.screening-common .right
+{
+	float: right;
+	margin-right: 25px;
+}
+#app .el-date-editor.el-input, .el-date-editor.el-input__inner
+{
+	width: 100%;
+}
+/*常见问题*/
+#app .commonproblem-editor .common-look .item-row .el-col .input,#app .commonproblem-add .common-look .item-row .el-col .input
+{
+	width: 80% !important;
+}
+/*高清巡查*/
+.patrol-list .partrol-tree .el-tree-node__label
+{
+	font-size: 12px;
+}
+/*列表通用*/
+.partrolbox
+{
+	position: relative;
+}
+.partrol-left
+{
+	position: absolute;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	overflow: auto;
+}
+/*机构管理*/
+.mechanism-list .partrol-left .el-dialog
+{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 600px;
+    height: 380px;
+    background: #fff;
+    z-index: 99;
+    padding: 30px;
+    border-radius: 3px;
+}
+.mechanism-list .partrol-left .el-dialog .el-dialog__header
+{
+	font-size: 14px;
+	padding: 0 0 20px 0;
+}
+.mechanism-list .partrol-left .el-dialog .el-dialog__body
+{
+	padding: 0;
+}
+/*用户管理 dialog*/
+.users-list .el-dialog
+{
+	height: 380px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.users-list .el-dialog .el-dialog__header
+{
+	text-align: left;
+}
+.users-list .el-dialog .el-dialog__header .el-dialog__title
+{
+	font-size: 14px;
+}
+.users-list .el-dialog .el-dialog__body
+{
+	padding: 0;
+}
+.users-list .el-dialog .el-dialog__body .treebox
+{
+	margin: 0 20px;
+	height: 230px;
+	overflow: auto;
+}
+.users-list .el-dialog .el-dialog__body .el-tree-node__label
+{
+	font-size: 12px;
+}
+.users-list .el-dialog .el-dialog__body .dialogButton
+{
+	padding-top: 20px;
+	border-top: 1px solid #EEE;
+	margin: 10px 20px;
+	text-align: center;
+}
+/*tree通用控件*/
+.el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content
+{
+	color: #409EFF;
+}
+/*细节修改*/
+.left
+{
+	float: left;
+}
+.common-look .item-row .el-col .historyReply
+{
+	width: 62% !important;	
+}
+.historyReply .reply-icon
+{
+	float: right;
+	font-size: 18px;
+	cursor: pointer;
+}
